@@ -1,5 +1,6 @@
-// Done in Processing Java
-
+/* Done in Processing Java
+  demonstrates ability to define, store, and manipulate primitive data
+*/
 void setup(){
 size(500,600);
 noStroke();
