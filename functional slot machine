@@ -1,0 +1,290 @@
+// Done in Processing Java
+
+void setup(){
+size(500,600);
+noStroke();
+background(17,53,95);
+
+  fill(255);
+rect(75-50,75,100,200);
+rect(200-50,75,100,200);
+rect(325-50,75,100,200);
+
+ fill(150);
+    rect(450-15,220,30,30);
+    
+    
+    fill(200);
+  rect(450-10,50,20,300);
+  
+    
+   fill(17,53,95);
+  rect(375,250,115,300);
+  
+  fill(150);
+  rect(450-15,250,30,5);
+  
+  
+  fill(200,0,0);
+  ellipse(450,50,50,50);
+
+
+};
+
+void draw(){
+  
+  if(mouseY>50){
+    background(17,53,95);
+
+ 
+    fill(150);
+    rect(450-15,220,30,30);
+    
+    
+    fill(200);
+  rect(450-10,mouseY,20,300);
+  
+    
+   fill(17,53,95);
+  rect(375,250,115,350);
+  
+  fill(150);
+  rect(450-15,250,30,5);
+  
+  
+  fill(200,0,0);
+  ellipse(450,mouseY,50,50);
+  
+  
+    
+int A=round((random(1,10)));
+int B=round((random(1,10)));
+int C=round((random(1,10)));
+
+frameRate(15);
+
+fill(255);
+rect(75-50,75,100,200);
+rect(200-50,75,100,200);
+rect(325-50,75,100,200);
+
+if (A==1){
+  stroke(1);
+
+fill(126,211,58);
+  rect(58,120,5,40);
+  rect(88,130,5,40);
+
+
+fill(255,0,0);
+  ellipse(60,170,50,50);
+  ellipse(90,180,50,50);
+  
+  noStroke();
+}
+else if(A==2){
+  stroke(1);
+
+fill(131,99,60);
+  rect(100,172,15,5);
+
+fill(255,255,0);
+  ellipse(75,175,70,50);
+  
+  noStroke();
+}
+else if(A==3){
+  
+  stroke(1);
+  
+  fill(131,99,60);
+  rect(72,130,5,20);
+  
+  fill(255,146,13);
+  ellipse(75,175,70,70);
+  
+  noStroke();
+}
+else if(A==4){
+  fill(255,255,0);
+  ellipse(75,175,50,50);
+}
+else if(A==5){
+  fill(255,0,255);
+  ellipse(75,175,50,50);
+}
+else if(A==6){
+  fill(255,0,0);
+  rect(75-25,175-25,50,50);
+}
+else if(A==7){
+  fill(0,255,0);
+  rect(75-25,175-25,50,50);
+}
+else if(A==8){
+  fill(0,0,255);
+  rect(75-25,175-25,50,50);
+}
+else if(A==9){
+  fill(255,255,0);
+  rect(75-25,175-25,50,50);
+}
+else if(A==10){
+  fill(255,0,255);
+  rect(75-25,175-25,50,50);
+};
+
+
+
+
+
+
+if (B==1){
+  stroke(1);
+
+fill(126,211,58);
+  rect(183,120,5,40);
+  rect(215,130,5,40);
+
+
+fill(255,0,0);
+  ellipse(185,170,50,50);
+  ellipse(213,180,50,50);
+  
+  noStroke();
+}
+else if(B==2){
+  stroke(1);
+
+fill(131,99,60);
+  rect(225,172,15,5);
+
+fill(255,255,0);
+  ellipse(200,175,70,50);
+  
+  noStroke();
+}
+else if(B==3){
+  stroke(1);
+  
+  fill(131,99,60);
+  rect(197,130,5,20);
+  
+  fill(255,146,13);
+  ellipse(200,175,70,70);
+  
+  noStroke();
+}
+else if(B==4){
+  fill(255,255,0);
+  ellipse(200,175,50,50);
+}
+else if(B==5){
+  fill(255,0,255);
+  ellipse(200,175,50,50);
+}
+else if(B==6){
+  fill(255,0,0);
+  rect(200-25,175-25,50,50);
+}
+else if(B==7){
+  fill(0,255,0);
+  rect(200-25,175-25,50,50);
+}
+else if(B==8){
+  fill(0,0,255);
+  rect(200-25,175-25,50,50);
+}
+else if(B==9){
+  fill(255,255,0);
+  rect(200-25,175-25,50,50);
+}
+else if(B==10){
+  fill(255,0,255);
+  rect(200-25,175-25,50,50);
+};
+
+
+
+
+
+if (C==1){
+  stroke(1);
+
+fill(126,211,58);
+  rect(308,120,5,40);
+  rect(338,130,5,40);
+
+
+fill(255,0,0);
+  ellipse(310,170,50,50);
+  ellipse(340,180,50,50);
+  
+  noStroke();
+}
+else if(C==2){
+  stroke(1);
+
+fill(131,99,60);
+  rect(350,172,15,5);
+
+fill(255,255,0);
+  ellipse(325,175,70,50);
+  
+  noStroke();
+}
+else if(C==3){
+  
+  stroke(1);
+    fill(131,99,60);
+  rect(322,130,5,20);
+  
+  fill(255,146,13);
+  ellipse(325,175,70,70);
+  
+  noStroke();
+}
+else if(C==4){
+  fill(255,255,0);
+  ellipse(325,175,50,50);
+}
+else if(C==5){
+  fill(255,0,255);
+  ellipse(325,175,50,50);
+}
+else if(C==6){
+  fill(255,0,0);
+  rect(325-25,175-25,50,50);
+}
+else if(C==7){
+  fill(0,255,0);
+  rect(325-25,175-25,50,50);
+}
+else if(C==8){
+  fill(0,0,255);
+  rect(325-25,175-25,50,50);
+}
+else if(C==9){
+  fill(255,255,0);
+  rect(325-25,175-25,50,50);
+}
+else if(C==10){
+  fill(255,0,255);
+  rect(325-25,175-25,50,50);
+}
+  }
+  
+  
+  
+  if(mouseY>250){
+    fill(200);
+   rect(450-10,220,20,mouseY/4.5);
+   
+   fill(150);
+  rect(450-15,220,30,5);
+   
+   fill(200,0,0);
+   ellipse(450,mouseY,50,50);
+  }
+  
+};
