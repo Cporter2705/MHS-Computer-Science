@@ -1,5 +1,29 @@
 /* Done in Processing Java
+  demonstrates ability to solve problems of level-appropriate complexity applying best practices of program design and format
+  
+  This code includes indentation and whitespace to make it easier to read
+  
+  
   demonstrates ability to define, store, and manipulate primitive data
+  
+  in order for most of the code to work and produce wanted results, 
+  I had to assign random values to integers that could then be used to assign strings of floats
+  
+  
+  demonstrates ability to design and implement algorithms that use sequence and selection including nested ifs
+  
+  The main body of the cody is just 3 really long "if/else if" that correlate to the 3 slot reels, each displaying 10 different symbols
+  
+  
+  demonstrate ability to add operator precedence in expressions and statements
+  
+  many of the float values and the if statements in the code include boolean and other simple mathematical statements
+  
+  
+  demonstrates ability to decompose a problem of level-appropriate complexity into more simple, solvable parts
+  
+  The code is split up my whitespace to seperate different parts of the code such as each reel being a seperate block of code
+  
 */
 void setup(){
 size(500,600);
